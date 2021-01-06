@@ -5,7 +5,7 @@ def fizzbuzz():
     prints Buzz for multiples of five
     prints FizzBuzz for multiples of both three and five
     """
-    for num in range(1, 100):
+    for num in range(1, 101):
         if num % 3 == 0 and num % 5 == 0:
             print("FizzBuzz ", end="")
         elif num % 3 == 0:
